@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+        <link rel="stylesheet" href="styles/vendor.css">
 
         <link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
 
@@ -15,10 +16,6 @@
         <script src="scripts/vendor/modernizr.js"></script>
     </head>
     <body>
-
-        <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
-
-
 
         <div class="container-fluid jw-header">
             <div class="container">
@@ -31,12 +28,14 @@
 
         <div class="container">
 
+        <a name="art" id="art"></a>
+
             <div class="jw-navigation"> 
                 
                 <ul class="nav nav-tabs">
                     <li><h2>Art</h2></li>    
-                    <li><a href="#">Wicker</a></li>    
-                    <li><a href="#">Other</a></li>    
+                    <li><a href="#wicker">Wicker</a></li>    
+                    <li><a href="#other">Other</a></li>    
                     <li><a href="#contact">Contact</a></li>    
                 </ul>
 
@@ -57,12 +56,14 @@
                 </div>
             </div>
 
+            <a name="wicker" id="wicker"></a>
+
             <div class="jw-navigation">
                 
                 <ul class="nav nav-tabs">
-                    <li><a href="#">Art</a></li>    
+                    <li><a href="#art">Art</a></li>    
                     <li><h2>Wicker</h2></li>    
-                    <li><a href="#">Other</a></li>    
+                    <li><a href="#other">Other</a></li>    
                     <li><a href="#contact">Contact</a></li>    
                 </ul>
 
@@ -83,11 +84,13 @@
                 </div>
             </div>
 
+            <a name="other" id="other"></a>
+
             <div class="jw-navigation">
                 
                 <ul class="nav nav-tabs">
-                    <li><a href="#">Art</a></li>    
-                    <li><a href="#">Wicker</a></li>    
+                    <li><a href="#art">Art</a></li>    
+                    <li><a href="#wicker">Wicker</a></li>    
                     <li><h2>Other</h2></li>    
                     <li><a href="#contact">Contact</a></li>    
                 </ul>
@@ -109,19 +112,21 @@
                 </div>
             </div>
 
+            <a name="contact" id="contact"></a>
+
 
             <div class="jw-navigation">
                 
                 <ul class="nav nav-tabs">
-                    <li><a href="#">Art</a></li>    
-                    <li><a href="#">Wicker</a></li>    
-                    <li><a href="#">Other</a></li>    
+                    <li><a href="#art">Art</a></li>    
+                    <li><a href="#wicker">Wicker</a></li>    
+                    <li><a href="#other">Other</a></li>    
                     <li><h2>Contact</h2></li>    
                 </ul>
 
             </div>
 
-            <div id="contact" class="row jw-contact">
+            <div class="row jw-contact">
 
                     <div class="col-xs-12 col-sm-6 jw-contact-tel">
                         <p>Tel: <a href="tel:+441436831222">+44 (0)1546 111 111</a></p>
@@ -155,6 +160,10 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
+
+        <script src="scripts/vendor.js"></script>
+
+        <script src="scripts/plugins.js"></script>
 
         <script src="scripts/main.js"></script>
 </body>
